@@ -61,36 +61,54 @@ D7 = X Y Z
 
 ### PROGRAM 
 /*
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Shobika P
+RegisterNumber: 212221230096 
+## Code 1:
+
+module ex8(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a,b,c;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+```
+## RTL LOGIC 1:
+![Screenshot (154)](https://user-images.githubusercontent.com/94508142/199724351-67e8285e-bb58-4a7a-af34-8004056f9408.png)
+
+## Timing Diagram 1:
+![Screenshot (155)](https://user-images.githubusercontent.com/94508142/199726325-a2ecceef-a968-4141-85e3-4fb31cc384f7.png)
+
+![Screenshot 2022-11-03 174013](https://user-images.githubusercontent.com/94508142/199724815-bb11e363-0c01-4bfc-b1a5-0d513d4ea3a6.png)
+![image](https://user-images.githubusercontent.com/94508142/199726465-96d22f52-271a-45ef-906a-3b382bb5a5cd.png)
+
+## Code 2:
+```
+module ex008(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0=(~a&~b&~c); 
+assign d1=(~a&~b&c);
+assign d2=(~a&b&~c);
+assign d3=(~a&b&c);
+assign d4=(a&~b&~c);
+assign d5=(a&~b&c);
+assign d6=(a&b&~c);
+assign d7=(a&b&c);
+endmodule
+```
+## RTL LOGIC 2:
+![Screenshot (156)](https://user-images.githubusercontent.com/94508142/199726819-91d0deb3-8e1f-4d9b-bcf5-a6d6cd2038f7.png)
+
+## Timing Diagram:
+![Screenshot (157)](https://user-images.githubusercontent.com/94508142/199727272-b025753a-672b-4034-8597-cf0219602d69.png)
+
+
+
+
 */
 
-
-
-
-
-
-### RTL LOGIC  
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
 ### RESULTS 
+The implementation 8 to 3 Encoder and  3to8 Decoder using verilog and validate its outputs is successfully completed.
