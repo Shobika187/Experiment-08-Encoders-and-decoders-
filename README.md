@@ -84,6 +84,10 @@ endmodule
 ![Screenshot 2022-11-03 174013](https://user-images.githubusercontent.com/94508142/199724815-bb11e363-0c01-4bfc-b1a5-0d513d4ea3a6.png)
 ![image](https://user-images.githubusercontent.com/94508142/199726465-96d22f52-271a-45ef-906a-3b382bb5a5cd.png)
 
+## Truth Table1:
+![Screenshot (159)](https://user-images.githubusercontent.com/94508142/200120156-ffd9f60c-c49a-4067-9463-26f9c6ea07ef.png)
+
+
 ## Code 2:
 ```
 module ex008(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
@@ -105,6 +109,8 @@ endmodule
 ## Timing Diagram:
 ![Screenshot (157)](https://user-images.githubusercontent.com/94508142/199727272-b025753a-672b-4034-8597-cf0219602d69.png)
 
+## Truth Table:
+![Screenshot (160)](https://user-images.githubusercontent.com/94508142/200120187-fd381e34-81e1-4e22-95ae-76e2b324f608.png)
 
 
 
